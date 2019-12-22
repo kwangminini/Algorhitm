@@ -1,0 +1,5 @@
+a,b,c=input().split()
+a=int(a)
+b=int(b)
+c=int(c)
+print (((a if b<c else (a if a<c else c) )if a<b else (b if b<c else c)))
