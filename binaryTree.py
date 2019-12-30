@@ -31,10 +31,10 @@ def printTree(node):
         if not node:
             continue
         else:
-            if node.val==-1: #-1을 만나면 새 리스트
+            if node.val==-1: 
                 if q.qsize()>0: 
                     all_lines.append(line)
-                    line=[] #층이 바뀌므로 초기화
+                    line=[] 
                     q.put(Node(-1))
 
                 else:
