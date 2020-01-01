@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>611c42bc-54da-423e-901e-406c0284ce1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CodeUp1071.py</StartupFile>
+    <StartupFile>CodeUp1096.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -277,6 +277,24 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CodeUp1090.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeUp1091.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeUp1092.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeUp1093.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeUp1094.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeUp1095.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="CodeUp1096.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="treeRouteSum.py">
