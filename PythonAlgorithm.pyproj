@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="2920.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="binaryTree.py">
       <SubType>Code</SubType>
     </Compile>
@@ -295,6 +298,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="CodeUp1096.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="example.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="treeRouteSum.py">
