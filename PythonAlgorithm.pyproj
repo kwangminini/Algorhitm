@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>611c42bc-54da-423e-901e-406c0284ce1d</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>CodeUp1096.py</StartupFile>
+    <StartupFile>1874.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="1874.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="2798.py">
       <SubType>Code</SubType>
     </Compile>
@@ -304,6 +307,9 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="example.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="test.py">
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="treeRouteSum.py">
