@@ -5,7 +5,11 @@ b=input().split(" ")
 aDic={}
 bDic={}
 for i in range(len(a)):
-    aDic[a[i]]=a[i]
+    aDic[int(a[i])]=a[i]
 
-for i in range(len(bStr)):
-    
+for i in range(len(b)):
+    flag=False
+    if int(b[i]) in aDic:
+        print("1")
+    else:
+        print("0")
