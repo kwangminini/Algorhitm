@@ -10,3 +10,4 @@ while len(document)>=len(word)+index:
     else:
         index+=1
 print(result)
+
