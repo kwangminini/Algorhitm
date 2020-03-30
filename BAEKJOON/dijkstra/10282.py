@@ -25,7 +25,7 @@ def dijkstra(start):
                 distance[i[0]]=cost
                 heapq.heappush(heap_data,(cost,i[0]))
 
-for _ in range(int(input())):
+for _ in range(int(input()))    :
     n,m,start = map(int,input().split())
     adj=[[] for i in range(n+1)]
     distance=[1e9]*(n+1)
