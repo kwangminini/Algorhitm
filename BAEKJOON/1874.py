@@ -1,9 +1,11 @@
+import sys
+input = sys.stdin.readline
 n= int(input())
 
 count=1
 stack=[]
 result=[]
-
+flag = True
 for i in range(1, n+1):
     data=int(input())
     while count<=data:
@@ -14,6 +16,8 @@ for i in range(1, n+1):
         stack.pop()
         result.append('-')
     else:
+        flag=False
         print('No')
         exit(0)
+
 print('\n'.join(result))
