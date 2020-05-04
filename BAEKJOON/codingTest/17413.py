@@ -5,11 +5,23 @@ def reverseStr(str1):
     result+=str1[::-1]
 
 k=''
+flag=True
 for i in range(len(s)):
-    if s[i]==' ':
+    if s[i] == '<':
         reverseStr(k)
+        flag=False
+    if not flag:
+        result+=s[i]
+    if flag:
+        if s[i]==' ':
+            reverseStr(k)
+            result+=' '
+            k=''
+        else:
+            k+=s[i]
+    if s[i] == '>':
+        flag=True
         k=''
-    k+=s[i]
 
 reverseStr(k)
 print(result)
