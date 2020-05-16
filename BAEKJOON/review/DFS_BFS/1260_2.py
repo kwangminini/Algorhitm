@@ -31,7 +31,7 @@ def bfs(now):
                     q.append(nex)
 visited=[False]*(n+1)
 dfs(v)
-print("") 
+print("")
 
 visited=[False] *(n+1)
 bfs(v)
