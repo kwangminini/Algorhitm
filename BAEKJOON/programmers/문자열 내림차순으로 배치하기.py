@@ -6,4 +6,4 @@ def solution(s):
     result.sort(reverse=True)
     for i in result:
         answer+=chr(i)
-    return answer
+    return answer 
