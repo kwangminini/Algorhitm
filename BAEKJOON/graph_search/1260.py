@@ -21,7 +21,7 @@ def dfs(v):
 def bfs(v):
     q=deque([v])
     while q:
-        v=q.popleft()
+        v=q.popleft() 
         if not(visited[v]):
             visited[v]=True
             print(v,end=' ')
